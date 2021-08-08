@@ -219,6 +219,6 @@ class DQNController(Controller):
                 target[i][actions[i]] = rewards[i] + self.discount_factor * (np.amax(target_val[i]))
 
         self.model.fit(np.reshape(states, (self.batch_size, 48, 2)), target, batch_size=self.batch_size,
-                       epochs=80, verbose=0)
+                       epochs=80, verbose=1)
 
 
