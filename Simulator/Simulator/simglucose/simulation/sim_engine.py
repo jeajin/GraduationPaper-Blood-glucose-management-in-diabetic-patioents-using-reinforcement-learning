@@ -103,10 +103,9 @@ class SimObj(object):
         #                 # 각 에피소드마다 타깃 모델을 모델의 가중치로 업데이트
         #                 self.controller.update_target_model()
 
-
     def dqsimulate(self):
         ttic = time.time()
-        print("start")
+        print("start???")
         epi = self.controller.episode
         # scores, episodes = [], []
         for episode in range(epi):
@@ -169,10 +168,18 @@ class SimObj(object):
                     # scores.append(score)
                     # episodes.append(episode)
                     toc = time.time()
-                    self.controller.model.save_weights("teest.h5")
+                    print(self.controller.modelName, " is model name")
+                    if self.controller.modelName == 'c':
+                        self.controller.model.save_weights("c.h5")
+                        print("save model weight CNN")
+                    elif self.controller.modelName == 'g':
+                        self.controller.model.save_weights("g.h5")
+                        print("save model weight GRU")
                     print('Simulation took episode {} seconds.'.format(toc - tic))
 
-            print("time: ", t, "  insulin:", action, "  episode:", episode, "  score:", score, "memory length:", len(self.controller.memory), " BG:", state)
+            print("WTF")
+            print("time: ", t, "  insulin:", action, "  episode:", episode, "  score:", score, "memory length:",
+                  len(self.controller.memory), " BG:", state)
 
             print()
             ttoc = time.time()
