@@ -264,7 +264,7 @@ def report(df, save_path=None):
         fig_ri.savefig(os.path.join(save_path, 'risk_stats.png'))
         fig_cvga.savefig(os.path.join(save_path, 'CVGA.png'))
 
-    plt.show()
+    # plt.show()
     return results, ri_per_hour, zone_stats, figs, axes
 
 

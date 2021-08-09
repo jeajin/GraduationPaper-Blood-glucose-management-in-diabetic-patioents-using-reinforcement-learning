@@ -30,16 +30,16 @@ INSULIN_PUMP_PARA_FILE = pkg_resources.resource_filename(
 def pick_patients():
     patient_params = pd.read_csv(PATIENT_PARA_FILE)
     while True:
-        select1 = input('Select virtual patients:\n' +
-                        '[1] All\n' +
-                        '[2] All Adolescents\n' +
-                        '[3] All Adults\n' +
-                        '[4] All Children\n' +
-                        '[5] By ID\n' +
-                        '>>> ')
+        # select1 = input('Select virtual patients:\n' +
+        #                 '[1] All\n' +
+        #                 '[2] All Adolescents\n' +
+        #                 '[3] All Adults\n' +
+        #                 '[4] All Children\n' +
+        #                 '[5] By ID\n' +
+        #                 '>>> ')
         try:
-            select1 = int(select1)
-            # select1 = 1
+            # select1 = int(select1)
+            select1 = 1
         except ValueError:
             print('Please input an integer. Try again')
             input('Press any key to continue ...')
@@ -366,9 +366,10 @@ def simulate(sim_time=None,
                                         cgm_selection=cgm_selection,
                                         pump_selection=pump_selection)
     results = batch_sim(sim_instances, parallel=parallel)
-    # print("results :", results)
+
     df = pd.concat(results, keys=[s.env.patient.name for s in sim_instances])
-    results, ri_per_hour, zone_stats, figs, axes = report(df, save_path)
+    if controller.name == 'dqnpred':
+        results, ri_per_hour, zone_stats, figs, axes = report(df, save_path)
 
     return 0
 
