@@ -1,6 +1,6 @@
 import numpy as np
 import warnings
-
+import matplotlib.pyplot as plt
 
 def risk_index(BG, horizon):
     # BG is in mg/dL
@@ -14,4 +14,8 @@ def risk_index(BG, horizon):
         LBGI = np.nan_to_num(np.mean(rl))
         HBGI = np.nan_to_num(np.mean(rh))
         RI = LBGI + HBGI
-    return (LBGI, HBGI, RI)
+    return RI# (LBGI, HBGI, RI)
+
+X = np.arange(0,10)
+plt.plot(X. risk_index(X, 0))
+plt.show()
