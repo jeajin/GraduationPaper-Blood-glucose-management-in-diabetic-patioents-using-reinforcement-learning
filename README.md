@@ -1,13 +1,17 @@
 # paper
-using reinforcement learning for Blood glucose management for diabetics 
+강화학습을 이용한 당뇨병 환자들의 혈당 관리
+Blood glucose management in diabetic patioents using reinforcement learning
 
-# 2021-07-23
-> 진행중
-> > 1. 가상환자들의 적용을 위한 자동화
+# feature
+> 학습 시나리오
+> > 1. 식사 시나리오
+> > 2. 가상환자 선택 방벙
+> > 3. 훈련 시나리오
 > > 
-> 할 것
-> > 1. 파라미터 조정
-> > 2. Risk값 뽑아서 그래프 만들기
+> DQN 설계
+> > 1. 파라미터-
 > > 
-> 완료
-> > 1. DQN 구성
+> 성능평가
+> > 대조군
+>
+> 당뇨병 시뮬레이터
