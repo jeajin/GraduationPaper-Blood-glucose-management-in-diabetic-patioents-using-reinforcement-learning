@@ -16,3 +16,5 @@ Blood glucose management in diabetic patients using reinforcement learning
 > > 대조군
 >
 > 당뇨병 시뮬레이터
+> 진행중
+> 
