@@ -1,4 +1,4 @@
-# paper
+# paper !
 강화학습을 이용한 당뇨병 환자들의 혈당 관리
 
 Blood glucose management in diabetic patients using reinforcement learning
