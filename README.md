@@ -7,7 +7,7 @@ Blood glucose management in diabetic patients using reinforcement learning
 > 학습 시나리오
 > > 1. 식사 시나리오
 > > 2. 가상환자 선택 방벙
-> > 3. 훈련 시나리오
+> > 3. 훈련 시나리오 
 > > 
 > DQN 설계
 > > 1. 파라미터-
