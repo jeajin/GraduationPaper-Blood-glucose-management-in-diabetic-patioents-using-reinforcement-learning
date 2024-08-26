@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a23eb71-4a19-48f6-89bb-022b71716dcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/paper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/paper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/RF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/RF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0.15.0" beforeDir="false" afterPath="$PROJECT_DIR$/../0.15.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.17.0" beforeDir="false" afterPath="$PROJECT_DIR$/../1.17.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.1.1" beforeDir="false" afterPath="$PROJECT_DIR$/../3.1.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Simulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Simulator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simglucose/analysis/report.py" beforeDir="false" afterPath="$PROJECT_DIR$/simglucose/analysis/report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simglucose/analysis/risk.py" beforeDir="false" afterPath="$PROJECT_DIR$/simglucose/analysis/risk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simglucose/controller/dqnlearnctrller.py" beforeDir="false" afterPath="$PROJECT_DIR$/simglucose/controller/dqnlearnctrller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simglucose/controller/qlearnctrller.py" beforeDir="false" afterPath="$PROJECT_DIR$/simglucose/controller/qlearnctrller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simglucose/simulation/scenario_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/simglucose/simulation/scenario_gen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simglucose/simulation/sim_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/simglucose/simulation/sim_engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simglucose/simulation/user_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/simglucose/simulation/user_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab.py" afterDir="false" />
-    </list>
+    <list default="true" id="2a23eb71-4a19-48f6-89bb-022b71716dcf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +18,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1s8xU5sLWeOFbWgCxbHlCJUPJfR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Machine_Learning/Reinforcement_Learning/reinforcement-learning-kr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Coding_Test" />
   </component>
   <component name="RunManager">
     <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -116,9 +91,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Simulator$start.coverage" NAME="start Coverage Results" MODIFIED="1627245160471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
